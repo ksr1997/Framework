@@ -32,3 +32,18 @@ FRAMEWORK/ # Root project directory (Rename as per project name)
 │── requirements.txt # List of dependencies (generated using pip freeze > requirements.txt)
 │── .gitignore # Ignore unnecessary files (e.g., venv/, pycache/)
 │── README.md # Project documentation
+
+
+## 🚀 Installation
+Follow these steps to install and set up the project:
+
+1. **Clone the repository**  
+   ```sh
+   git clone https://github.com/yourusername/myframework.git
+   cd myframework
+
+2. **Create and activate a virtual environment**
+   ```sh
+   python -m venv venv
+   source venv/bin/activate   # Mac/Linux
+   venv\Scripts\activate      # Windows
