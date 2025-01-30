@@ -20,3 +20,15 @@ FRAMEWORK/            # Root project directory (Rename as per project name)
 MyFramework is a custom Python package that provides utility functions for date operations, mathematical calculations, and string manipulations.
 
 ## 📂 Project Structure
+FRAMEWORK/ # Root project directory (Rename as per project name)
+│── main.py # Main script that uses the package
+│── modules/ # Package containing modules
+│ │── init.py # Initializes the package
+│ │── date_utils.py # Date-related functions
+│ │── math_utils.py # Math-related functions
+│ │── string_utils.py # String manipulation functions
+│ │── config.py # Configuration settings
+│── venv/ # Virtual environment (auto-created)
+│── requirements.txt # List of dependencies (generated using pip freeze > requirements.txt)
+│── .gitignore # Ignore unnecessary files (e.g., venv/, pycache/)
+│── README.md # Project documentation
