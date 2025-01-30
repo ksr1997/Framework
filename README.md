@@ -63,6 +63,7 @@ Follow these steps to install and set up the project:
    print(add(10, 5))     # Output: 15
    print(subtract(10, 5)) # Output: 5
 
+---
 
 # Project Name
 
@@ -81,6 +82,8 @@ Follow these steps to install and set up the project:
 2. Create a new branch:
    ```bash
    git checkout -b feature-name
+
+---
 
 ## 📝 License
 This project is licensed under the MIT License.
