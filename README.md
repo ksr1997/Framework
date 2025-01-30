@@ -47,3 +47,19 @@ Follow these steps to install and set up the project:
    python -m venv venv
    source venv/bin/activate   # Mac/Linux
    venv\Scripts\activate      # Windows
+3. **Install dependencies**
+   ```sh
+   pip install -r requirements.txt
+
+## 📌 Usage
+
+1. **Example: Using Date Utilities**
+   ```sh
+   from modules.date_utils import get_current_date
+   print(get_current_date())  # Prints the current date
+2. **Example: Using Math Utilities**
+   ```sh
+   from modules.math_utils import add, subtract
+   print(add(10, 5))     # Output: 15
+   print(subtract(10, 5)) # Output: 5
+   
