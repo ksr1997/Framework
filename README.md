@@ -15,10 +15,9 @@ FRAMEWORK/            # Root project directory (Rename as per project name)
 #######################################################################################################
 #######################################################################################################
 # MyFramework
-
 ## 📌 Description
 MyFramework is a custom Python package that provides utility functions for date operations, mathematical calculations, and string manipulations.
-
+---
 ## 📂 Project Structure
 FRAMEWORK/ # Root project directory (Rename as per project name)
 │── main.py # Main script that uses the package
@@ -32,11 +31,9 @@ FRAMEWORK/ # Root project directory (Rename as per project name)
 │── requirements.txt # List of dependencies (generated using pip freeze > requirements.txt)
 │── .gitignore # Ignore unnecessary files (e.g., venv/, pycache/)
 │── README.md # Project documentation
-
-
+---
 ## 🚀 Installation
 Follow these steps to install and set up the project:
-
 1. **Clone the repository**  
    ```sh
    git clone https://github.com/yourusername/myframework.git
@@ -50,9 +47,8 @@ Follow these steps to install and set up the project:
 3. **Install dependencies**
    ```sh
    pip install -r requirements.txt
-
+---
 ## 📌 Usage
-
 1. **Example: Using Date Utilities**
    ```sh
    from modules.date_utils import get_current_date
@@ -62,28 +58,19 @@ Follow these steps to install and set up the project:
    from modules.math_utils import add, subtract
    print(add(10, 5))     # Output: 15
    print(subtract(10, 5)) # Output: 5
-
 ---
-
 # Project Name
-
 ## 🛠️ Features
-
 - ✅ **Date utilities** (`date_utils.py`)
 - ✅ **Math operations** (`math_utils.py`)
 - ✅ **String manipulations** (`string_utils.py`)
 - ✅ **Configurable settings** (`config.py`)
-
 ---
-
 ## 🔧 Contributing
-
 1. Fork the repository.
 2. Create a new branch:
    ```bash
    git checkout -b feature-name
-
 ---
-
 ## 📝 License
 This project is licensed under the MIT License.
